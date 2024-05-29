@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family:"font";
+    src: url(../OpenSans-VariableFont_wdth\,wght.ttf);
+}
+header{
+    z-index:1;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    .navbar{
+        width: 1300px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .navbar-link{
+            display: flex;
+            gap: 32px;
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 32px;
+                a{
+                    color: black;
+                    font-size: 15px;
+                    font-family: "font";
+                    &:hover{
+                        color: #00BAFC;
+                        transition:all 0.2s linear;
+                    }
+                }
+            }
+            .navbar-button{
+                padding: 8px 16px;
+                color: white;
+                font-family: "font";
+                font-size: 15px;
+                background-color: #00BAFC;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    transition:all 0.2s linear;
+                }
+            }
+        }
+    }
+}
+.box{
+    width: 100%;
+    height: 56px;
+}
+.you-tube{
+    width: 1300px;
+    height: 418px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .about-biznes{
+        width: 475px;
+        height: 224px;
+        h1{
+            font-family: "font";
+            font-size: 30px;
+        }
+        p{
+            font-family: "font";
+            font-size: 16px;
+            padding: 20px 0px;
+        }
+        .biznes-btn{
+            padding: 8px 16px;
+                color: white;
+                font-family: "font";
+                font-size: 15px;
+                background-color: #00BAFC;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    transition:all 0.2s linear;
+                }
+        }
+    }
+}
+.xizmatlar{
+    width: 1300px;
+    height: 879px;
+    margin: auto;
+    .xizmatlar-text{
+        width: 710px;
+        height: 180px;
+        margin: auto;
+        h1{
+            text-align: center;
+            padding: 56px 0px 16px 0px;
+            font-size: 24px;
+            font-family: "font";
+        }
+        p{
+            font-family: "font";
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+    .posts{
+        width: 100%;
+        height: 576px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 48px;
+        flex-wrap: wrap;
+        .post{
+            width: 320px;
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                transform: scale(1.1);
+                transition: all 0.3s linear;
+            }
+            box-shadow: 0px 10px 10px rgb(201, 201, 201);
+            h1{
+                font-family: "font";
+                font-size: 20px;
+                padding: 16px 0px;
+            }
+            p{
+                font-family: "font";
+                font-size: 16px;
+            }
+        }
+    }
+    .xizmatlar-btn{
+        width: 378px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: auto;
+        margin-top: 30px;
+        button{
+                padding: 8px 16px;
+                color: white;
+                font-family: "font";
+                font-size: 15px;
+                background-color: #00BAFC;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    transition:all 0.2s linear;
+                }
+        }
+        a{
+            color: #00BAFC;
+            font-size: 16px;
+            font-family: "font";
+        }
+    }
+}
+.ish{
+    width: 1300px;
+    height: 1675px;
+    margin: auto;
+    .ish-text{
+            width: 710px;
+            height: 180px;
+            margin: auto;
+            h1{
+                text-align: center;
+                padding: 56px 0px 16px 0px;
+                font-size: 24px;
+                font-family: "font";
+            }
+            p{
+                font-family: "font";
+                font-size: 16px;
+                text-align: center;
+            } 
+    }
+
+    .ish-posts{
+        width: 1300px;
+        height: 1372px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+        .ish__post__talablar{
+            width: 832px;
+            height: 278px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .text{
+                width: 493px;
+                height: 80px;
+                h1{
+                    font-size: 20px;
+                    font-family: "font";
+                }
+                p{
+                    font-size: 16px;
+                    font-family: "font";
+                }
+            }
+        }
+        .ish__post__yechimlar{
+            width: 832px;
+            height: 224px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .text{
+                width: 493px;
+                height: 80px;
+                h1{
+                    font-size: 20px;
+                    font-family: "font";
+                }
+                p{
+                    font-size: 16px;
+                    font-family: "font";
+                }
+            }
+        }
+        .ish__post__loyiha{
+            width: 832px;
+            height: 258px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .text{
+                width: 493px;
+                height: 80px;
+                h1{
+                    font-size: 20px;
+                    font-family: "font";
+                }
+                p{
+                    font-size: 16px;
+                    font-family: "font";
+                }
+            }
+        }
+        .ish__post__sifat{
+            width: 832px;
+            height: 171px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .text{
+                width: 493px;
+                height: 80px;
+                h1{
+                    font-size: 20px;
+                    font-family: "font";
+                }
+                p{
+                    font-size: 16px;
+                    font-family: "font";
+                }
+            }
+        }
+        .ish__post__qullabquvatlash{
+            width: 832px;
+            height: 232px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .text{
+                width: 493px;
+                height: 80px;
+                h1{
+                    font-size: 20px;
+                    font-family: "font";
+                }
+                p{
+                    font-size: 16px;
+                    font-family: "font";
+                }
+            }
+        }
+        .ish-btn{
+            padding: 8px 16px;
+            color: white;
+            font-family: "font";
+            font-size: 15px;
+            background-color: #00BAFC;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+                transition:all 0.2s linear;
+            }
+        }
+    }
+}
+.buyurtma-berish{
+    width: 1300px;
+    height: 543px;
+    background-color: #00BAFC;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .text{
+        width: 719px;
+        height: auto;
+        h1{
+            text-align: center;
+            padding: 56px 0px 16px 0px;
+            font-size: 24px;
+            font-family: "font";
+        }
+        p{
+            font-family: "font";
+            font-size: 16px;
+            text-align: center;
+            padding: 0px 0px 16px 0px;
+        }
+    }
+    .shop{
+        width: 348px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5px;
+        align-items: center;
+        input{
+            width: 300px;
+            height: 56px;
+            background-color: #F3F3F3;
+            border-radius: 5px;
+            margin: 16px 0px 0px 0px;
+            border: none;
+            outline: none;
+            padding: 0px 15px;
+        }
+        .shop-btn{
+            padding: 8px 16px;
+            color: white;
+            font-family: "font";
+            font-size: 15px;
+            background-color: #00BAFC;
+            border-radius: 5px;
+            margin: 24px 0px;
+            border: none;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+                transition:all 0.2s linear;
+                
+            }
+        }
+        
+    }
+}
+footer{
+    width: 1300px;
+    height: 338px;
+    background-color: #191919;
+    margin: auto;
+    display: flex;
+    padding: 56px 100px;
+    gap: 100px;
+}
